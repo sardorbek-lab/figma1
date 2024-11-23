@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+
+}
+.container img{
+    width: 100%;
+    height: 1200px;
+    background-color: #00000066;
+}
+.container .container_text{
+    font-size: 50px;
+    color: #FFF;
+    position: relative;
+    top: -700px;
+    left: 1000px;
+}
+.container .container_btn{
+    font-size: 25px;
+    position: relative;
+    top: -680px;
+    left: 1100px;
+}
+.container .container_btn button{
+    width: 220px;
+    height: 75px;
+    background: linear-gradient(180deg, #EB6550 0%, #F1749D 100%);
+    border-radius: 53px;
+    font-size: 24px;
+    border: none;
+    color: #FFF;
+
+}
+.box{
+    width: 100%;
+    height: 80vh;
+    /* padding: 10px 20%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .box_text h1{
+    font-size: 70px;
+    letter-spacing: 0.9;
+    color: #F1749D;
+    position: relative;
+    /* top: -100px; */
+
+}
+.box .box_text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 26%;
+    justify-content: center;
+}
+.box .box_text .box_text_p p{
+    color: rgba(51, 51, 51, 1);
+    font-size: 24px;
+    position: relative;
+    top: 30px;
+    align-items: center;
+    padding: 10px 10%;
+    text-align: center;
+    line-height: 33px;
+    justify-content: center;
+
+}
+.item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item .item_cart{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    padding: 6px 2%;
+}
+.item .item_cart .item_text h1{
+    font-size: 60px;
+    position: relative;
+    top: 60px;
+    color: rgb(51, 51, 51, 1);
+}
+.item .item_cart .item_img img{
+    width: 800px;
+    height: 600px;
+}
+.item .item_cart{
+    width: 1000px;
+    height: 700px;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+.imglar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    gap: 20px;
+}
+.imglar .img1{
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+    background: linear-gradient(157.71deg, #FFC92B -8.03%, #FB8343 50.46%, #F1749D 110.68%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 1%;
+
+}
+.imglar .img1  h1{
+    color: #FFF;
+    font-size: 66px;
+    line-height: 85.4px;
+}
+.imglar .img2{
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+}
+.imglar .img2 img{
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+}
+.karta{
+    width: 1050px;
+    height: 700px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 50px;
+    left: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.karta .karta_img img{
+    width: 600px;
+    height: 500px;
+}
+.karta .karta_text h1{
+    font-size: 60px;
+    color: rgba(51, 51, 51, 1);
+}
+
+
+.imglar2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    gap: 20px;
+}
+.imglar2 .img1{
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+    background: linear-gradient(157.71deg, #FFC92B -8.03%, #FB8343 50.46%, #F1749D 110.68%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 1%;
+
+}
+.imglar2 .img1  h1{
+    color: #FFF;
+    font-size: 66px;
+    line-height: 85.4px;
+}
+.imglar2 .img2{
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+}
+.imglar2 .img2 img{
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+}
+.id{
+    width: 1000px;
+    height: 700px;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 30px;
+    top: 200px;
+    left: 630px;
+    padding: 0px 4%;
+}
+.id .id_img img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -30px;
+}
+.id .id_text h1{
+    font-size: 50px;
+    color: rgba(51, 51, 51, 1);
+}
+.id .id_text{
+    text-align: center;
+}
+.car{
+    width: 1000px;
+    height: 700px;
+    position: relative;
+    top: 250px;
+    left: 630px;
+}
+.car img{
+    width: 1000px;
+    height: 700px;
+}
+.car .car_icon img{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -419px;
+    left: 430px;
+}
+.footer{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(96.33deg, #ECD961 -2.25%, #FAB3A1 35.97%, #D9ABBF 68.19%, #A3A5CE 106.29%);
+    position: relative;
+    top: 400px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer .footer_text h1{
+    font-size: 80px;
+    position: relative;
+    top: -100px;
+}
+.footer .footer_text span{
+    font-size: 30px;
+    position: relative;
+    top: -80px;
+}
+.footer .footer_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer .footer_text .button1 button{
+    width: 220px;
+    height: 70px;
+    border-radius: 53px;
+    border: none;
+    background-color: #FFF;
+    font-size: 21px;
+    box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: -40px;
+
+}
+.footer .footer_text .chiziq{
+    width: 800px;
+    height: 1px;
+    border: 1px solid #FFF;
+}
+.footer .footer_text .img img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 60px;
+}
+.footer .footer_text p{
+    font-size: 22px;
+    position: relative;
+    top: 80px;
+}
+.footer .footer_text .button2 button{
+    width: 220px;
+    height: 70px;
+    border-radius: 53px;
+    border: 4px solid #FFF;
+    background-color: transparent;
+    font-size: 20px;
+    color: #FFF;
+    box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 100px;
+
+}
